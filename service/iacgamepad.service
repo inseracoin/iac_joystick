@@ -1,0 +1,14 @@
+Description=INSERTACO.IN GAMEPAD SERVICE
+
+Wants=
+After=
+
+[Service]
+Type=simple
+ExecStart=/bin/iacgamepad
+Restart=on-failure
+RestartSec=10
+KillMode=process
+
+[Install]
+WantedBy=
