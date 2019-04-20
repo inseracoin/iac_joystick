@@ -11,4 +11,4 @@ RestartSec=10
 KillMode=process
 
 [Install]
-WantedBy=
+WantedBy=multi-user.target
