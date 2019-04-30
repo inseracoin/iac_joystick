@@ -10,6 +10,6 @@
 ### END INIT INFO
 
 # Carry out specific functions when asked to by the system
-/bin/iacgamepad
+/bin/iacgamepad &
 
 exit 0
